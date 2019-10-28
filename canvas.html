@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+
+<canvas width="400" height="400" id="micanvas">Su navegador no soporta canvas :( </canvas>
+
+<script>
+var canvas = document.getElementById("micanvas");
+var ctx = canvas.getContext("2d");
+
+// Dibujamos en el canvas
+ctx.fillStyle = "rgb(255,0,0)";
+ctx.fillRect(20,20,100,100);
+
+ctx.fillStyle = "rgb(0,255,0)";
+ctx.fillRect(60,60,140,140);
+
+ctx.fillStyle = "rgb(0,0,255)";
+ctx.fillRect(100,100,180,180);
+</script>
+
+<canvas width="400" height="400" id="micanvas2">Su navegador no soporta canvas :( </canvas>
+
+<script>
+var canvas = document.getElementById("micanvas2");
+var ctx = canvas.getContext("2d");
+
+// Dibujamos en el canvas
+ctx.fillStyle = "rgb(255,0,0)";
+ctx.fillRect(20,20,100,100);
+
+ctx.fillStyle = "rgb(0,255,0)";
+ctx.fillRect(60,60,140,140);
+
+ctx.fillStyle = "rgb(0,0,255)";
+ctx.fillRect(100,100,180,180);
+</script>
+
+</body>
+</html> 
